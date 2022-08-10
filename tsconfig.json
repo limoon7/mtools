@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // ts编译的目标文件，我这里编译成es6， 然后交给babel
+    "target": "esnext",
+    // 使用最新的语法
+    "module": "esnext",
+    // 库使用dom， dom可迭代
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    // 模块解析策略是node
+    "moduleResolution": "node",
+    // 开启es与其他模块的交互
+    "esModuleInterop": true,
+    // 开启严格模式
+    "strict": true,
+    // TODO: 开启声明文件的输出
+    "declaration": false,
+    // 允许导入json模块
+    "resolveJsonModule": true,
+    // 跳过库的检查
+    "skipLibCheck": true,
+    "noUnusedLocals": true
+  },
+  // 只编译src目录下面的文件
+  "include": ["./src"]
+}
