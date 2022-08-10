@@ -1,3 +1,3 @@
 import isColor from './utils/isColor'
 
-export { isColor,  }
+export { isColor }

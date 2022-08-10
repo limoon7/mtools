@@ -2,9 +2,6 @@
   "name": "@lemonono/mtools",
   "version": "1.0.0",
   "description": "通用js方法",
-  "main": "dist/index.min.js",
-  "module": "dist/index.esm.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version -- --release-as minor",
